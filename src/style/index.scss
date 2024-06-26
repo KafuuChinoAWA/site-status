@@ -1,5 +1,5 @@
 $main-background: #ffffff;
-$main-hover-color: rgba(31, 30, 30, 0.8);
+$main-hover-color: #00000065;
 $primary-color: #3bd672;
 $secondary-color: #747474;
 $normal-color: #63ffbd;
@@ -236,8 +236,8 @@ body {
         min-height: 200px;
         border-radius: 16px;
         background-color: rgba(58, 58, 58, 0.9);
-        box-shadow: 0 10px 30px rgba(0, 0, 0);    
-        backdrop-filter: blur(2px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0);
+        backdrop-filter: blur(3px);
         overflow: hidden;
         .loading {
           width: 36px;
