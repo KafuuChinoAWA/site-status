@@ -1,5 +1,5 @@
 $main-background: rgba(68, 68, 68);
-$main-hover-color: #000000;
+$main-hover-color: #000000de;
 $primary-color: #3bd672;
 $secondary-color: #747474;
 $normal-color: #63ffbd;
@@ -21,6 +21,7 @@ $loading-color: #58d0ff;
 body {
   background-color: #f6f8fa02;
   background-image: url(/background.png);
+  filter: brightness(0.6);
   background-attachment: fixed;
   overflow-y: overlay;
   overflow-x: hidden;
